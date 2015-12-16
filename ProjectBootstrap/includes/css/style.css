@@ -2,66 +2,64 @@
 /* --------------------------------------
    Layout
    -------------------------------------- */
-.toppad{
-  padding-top: 70px;
-}
-.bottompad{
-  padding-bottom: 70px;
-}
-#register {
-  height: auto;
-  font-size: 35px;
-  color: white;
-  text-align: center;
-  background-color: #183740;
-}
-#register a{
-  color: white;
-}
+  .toppad{
+    padding-top: 70px;
+  }
+  .bottompad{
+    padding-bottom: 70px;
+  }
+  #register {
+    height: auto;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    background-color: #183740;
+  }
+  #register a{
+    color: white;
+  }
+  #register {
+    height: auto;
+    background-color: #17171a;
+    color: #5e6061;
+    text-align: center;
+  }
+  footer {
+  	background: #333;
+  	color: #eee;
+  	font-size: 11px;
+  	padding: 20px;
+  }
+  img.resizeimg {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  ul.unstyled {
+    list-style: none;
+  	padding: 0;
+  }
 
-#register {
-  height: auto;
-  background-color: #17171a;
-  color: #5e6061;
-  text-align: center;
-}
-
-footer {
-	background: #333;
-	color: #eee;
-	font-size: 11px;
-	padding: 20px;
-}
-img.resizeimg {
-  max-width: 100%;
-  max-height: 100%;
-}
-ul.unstyled {
-  list-style: none;
-	padding: 0;
-}
-
-.AlignCentre li{
-  display: block;
-  text-decoration: none;
-}
-#searchId{
-  width: 140px;
-}
+  .AlignCentre li{
+    display: block;
+    text-decoration: none;
+  }
+  #searchId{
+    width: 140px;
+  }
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-.navbar-brand img{
-  max-height: 100%;
-  max-width: 100%;
-  padding-left: 15px;
-}
+  .navbar-brand img{
+    max-height: 100%;
+    max-width: 100%;
+    padding-left: 15px;
+  }
 
-.side-btn{
-  padding-top: 8px;
-  padding-right: 8px;
-}
+  .side-btn{
+    padding-top: 8px;
+    padding-right: 8px;
+  }
 
 /* --------------------------------------
    Carousel
@@ -363,19 +361,19 @@ ul.unstyled {
       	background-position: 0 -40px;
       }
       .social-icons li.facebook a {
-      	background: url(/images/facebook.png) no-repeat 0 0;
+      	background: url("../../images/facebook.png") no-repeat 0 0;
       }
       .social-icons li.facebook a:hover {
       	background-color: #3b5998;
       }
       .social-icons li.googleplus a {
-      	background: url(/images/googleplus.png) no-repeat 0 0;
+      	background: url("../../images/googleplus.png") no-repeat 0 0;
       }
       .social-icons li.googleplus a:hover {
       	background-color: #d94a39;
       }
       .social-icons li.twitter a {
-      	background: url(/images/twitter.png) no-repeat 0 0;
+      	background: url("../../images/twitter.png") no-repeat 0 0;
       }
       .social-icons li.twitter a:hover {
       	background-color: #48c4d2;
